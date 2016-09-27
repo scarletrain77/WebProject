@@ -15,4 +15,6 @@ function PrintPyramid (numOfPilesAll:number):void{
     }
 }
 
+window.onload = () => {
 PrintPyramid(5);
+};

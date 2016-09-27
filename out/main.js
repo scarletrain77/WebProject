@@ -14,5 +14,7 @@ function PrintPyramid(numOfPilesAll) {
         console.log(paintOfPlies);
     }
 }
-PrintPyramid(5);
+window.onload = function () {
+    PrintPyramid(5);
+};
 //# sourceMappingURL=main.js.map
